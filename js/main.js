@@ -170,7 +170,7 @@ liElements.forEach((element, index) => {
 
 })
 
-$('.wrapPhotos').lightGallery({
-    selector: '.onePhoto'
-});
+// $('.wrapPhotos').lightGallery({
+//     selector: '.onePhoto'
+// });
 
