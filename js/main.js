@@ -1,11 +1,12 @@
 const liElements = [...document.querySelectorAll('nav ul li')];
+const wrapSite = document.querySelector('div.wrapSite');
 const header = document.querySelector('header');
 const sectionAboutMe = document.querySelector('section.aboutMe');
 const sectionGallery = document.querySelector('section.gallery');
 const sectionContact = document.querySelector('section.contact');
 const sectionOpinions = document.querySelector('section.opinions');
 const divGallery = document.querySelector('div.wrapPhotos');
-
+let imgGallery = [];
 
 for (let i = 1; i < 11; i++) {
     const img = document.createElement('img');
@@ -17,9 +18,13 @@ for (let i = 1; i < 11; i++) {
 
     divPhoto.appendChild(img);
     divGallery.appendChild(divPhoto);
+
+    imgGallery.push(img);
 }
 
 header.classList.add('appear');
+
+
 
 liElements.forEach((element, index) => {
 
