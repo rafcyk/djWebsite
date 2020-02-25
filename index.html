@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/73ea700413.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link type="text/css" rel="stylesheet" href="node_modules/lightgallery.js/src/css/lightgallery.css" />
+    <title>DJ</title>
+</head>
+
+<body>
+    <div class="fullScreenVideo">
+        <video autoplay loop muted src="video.mp4">
+        </video>
+    </div>
+
+    <div class="wrapSite">
+        <header>
+            <h1>Muzyka. To czuję.</h1>
+            <nav>
+                <ul>
+                    <li>Strona główna<span></span></li>
+                    <li>O mnie<span></span></li>
+                    <li>Galeria<span></span></li>
+                    <li>Opinie<span></span></li>
+                    <li>Kontakt<span></span></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="aboutMe">
+
+            <nav>
+                <ul>
+                    <li>Strona główna<span></span></li>
+                    <li>O mnie<span></span></li>
+                    <li>Galeria<span></span></li>
+                    <li>Opinie<span></span></li>
+                    <li>Kontakt<span></span></li>
+                </ul>
+            </nav>
+
+            <div class="wrapAboutMe">
+                <div class="description">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus, ratione enim sit placeat neque
+                        cumque, repudiandae facere minima sed cupiditate, est quas illo. Corporis reprehenderit
+                        exercitationem impedit vel maxime tempore! Lorem ipsum, dolor sit amet consectetur adipisicing
+                        elit.
+                        Deserunt dicta iste fugiat, aperiam neque adipisci voluptates accusantium non quo odio, sed
+                        mollitia
+                        quidem quia, officia illum nam labore sint optio! Lorem ipsum dolor, sit amet consectetur
+                        adipisicing elit. Provident nulla asperiores necessitatibus quia corrupti sunt, reprehenderit
+                        expedita facilis placeat, nisi inventore quisquam sapiente quod nihil. Harum ducimus sapiente
+                        ullam cupiditate.</p>
+                </div>
+
+                <div class="photo">
+                    <img src="img/myPhoto.jpg" alt="">
+                </div>
+            </div>
+        </section>
+
+        <section class="gallery">
+
+            <nav>
+                <ul>
+                    <li>Strona główna<span></span></li>
+                    <li>O mnie<span></span></li>
+                    <li>Galeria<span></span></li>
+                    <li>Opinie<span></span></li>
+                    <li>Kontakt<span></span></li>
+                </ul>
+            </nav>
+
+            <div class="wrapPhotos" id="lightgallery">
+
+            </div>
+        </section>
+
+        <section class="opinions">
+            <nav>
+                <ul>
+                    <li>Strona główna<span></span></li>
+                    <li>O mnie<span></span></li>
+                    <li>Galeria<span></span></li>
+                    <li>Opinie<span></span></li>
+                    <li>Kontakt<span></span></li>
+                </ul>
+            </nav>
+
+            <div class="wrapOpinions">
+                <div class="wrapOpinion">
+                    <img src="img/person.png" alt="">
+                    <p>"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus id dignissimos saepe,
+                        repudiandae, voluptate mollitia qui assumenda reiciendis facilis dolorem rem quam ipsam
+                        voluptatibus expedita cumque ea consequuntur voluptates neque."</p>
+                    <p class="author">Adam Kowalski</p>
+                </div>
+
+                <div class="wrapOpinion">
+                    <img src="img/person.png" alt="">
+                    <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, similique illo! Quas, iste rem
+                        aliquid consequuntur asperiores in aperiam iure. Dolorum mollitia in reprehenderit sunt, nisi a
+                        omnis culpa quisquam."</p>
+                    <p class="author">Jan Nowak</p>
+                </div>
+
+                <div class="wrapOpinion">
+                    <img src="img/person.png" alt="">
+                    <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque magni obcaecati modi temporibus
+                        debitis ducimus aut ab laudantium tempora quaerat blanditiis officiis nostrum ullam, iure
+                        reiciendis quae ratione cumque vitae."</p>
+                    <p class="author">Marcin Dobry</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact">
+
+            <nav>
+                <ul>
+                    <li>Strona główna<span></span></li>
+                    <li>O mnie<span></span></li>
+                    <li>Galeria<span></span></li>
+                    <li>Opinie<span></span></li>
+                    <li>Kontakt<span></span></li>
+                </ul>
+            </nav>
+
+            <h2>Masz jakieś pytania? Wątpliwości? Skontaktuj się ze mną.</h2>
+
+            <form action="">
+                <div class=" wrapInputs">
+                    <input type="text" placeholder="Imię">
+                    <input type="email" placeholder="E-mail">
+                </div>
+
+                <div class="wrapText">
+                    <textarea name="" placeholder="Napisz wiadomośc..."></textarea>
+                    <button class="send">Wyślij</button>
+                </div>
+            </form>
+
+            <div class="media">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+
+        </section>
+
+    </div>
+
+    <script src="main.js"></script>
+    <script src="node_modules/lightgallery.js/dist/js/lightgallery.js"></script>
+    <script type="text/javascript">
+        lightGallery(document.getElementById('lightgallery')); 
+    </script>
+</body>
+
+</html>
