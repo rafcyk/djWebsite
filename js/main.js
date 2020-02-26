@@ -8,6 +8,8 @@ const sectionOpinions = document.querySelector('section.opinions');
 const divGallery = document.querySelector('div.wrapPhotos');
 let imgGallery = [];
 
+
+//add images to gallery
 for (let i = 1; i < 11; i++) {
     const img = document.createElement('img');
     img.src = `img/${i}.jpg`;
@@ -22,13 +24,12 @@ for (let i = 1; i < 11; i++) {
     imgGallery.push(img);
 }
 
+//appear main page
 header.classList.add('appear');
 
 
 
 liElements.forEach((element, index) => {
-
-
 
     element.addEventListener('click', () => {
 
@@ -174,8 +175,4 @@ liElements.forEach((element, index) => {
     })
 
 })
-
-// $('.wrapPhotos').lightGallery({
-//     selector: '.onePhoto'
-// });
 
