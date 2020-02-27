@@ -22,7 +22,7 @@ div.wrapSite{
     left:0;
     width:100%;
     min-height: 100vh;
-    background-color: rgba(0, 0, 0, .5);
+    background-color: rgba(0, 0, 0, .6);
     overflow-x: hidden;
     overflow-y: auto;
 }
